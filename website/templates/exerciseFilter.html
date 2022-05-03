@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block title %}Kratos Home{% endblock %}
+
+{% block content %}
+
+<h2 style="text-align:center;"> Project Kratos - Recommendation Page </h2>
+<h4 style="text-align:center;"> "Personification of Strength"</h4>
+
+<p> Top 5 Exercises based on {{name}} </p> 
+{{data | safe}}
+
+{% endblock %}

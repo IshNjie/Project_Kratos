@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block title %}Kratos Recommendation Page{% endblock %}
+
+{% block content %}
+
+<h2 style="text-align:center;"> Project Kratos - Recommendation Page </h2>
+<h4 style="text-align:center;"> "Personification of Strength"</h4>
+
+<form method="post">
+    <p>Pick an Exercise to recieve Recommendations:</p>
+    <label for="lang">Exercise</label>
+    <select name="work" id="lang" >
+    <option value="none" selected disabled hidden>Select an Option</option>
+    {{options| safe}}
+    </select>
+    <input type="submit" value="Submit" />
+</form>
+
+{% endblock %}
