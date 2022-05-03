@@ -15,3 +15,15 @@ The user will select what exercise they want to view "similar" exercises for
 ![Alt text](/website/static/Web-page-preview/Recom-selection.png?raw=true "Recom-Page")
 
 ![Alt text](/website/static/Web-page-preview/Recom-filter.png?raw=true "Recom-filter")
+
+## Running The App
+
+```
+python main.py
+```
+
+A local host will be created, and the website will be accessible via ```http://127.0.0.1:5000```
+
+I followed the below repo to create this project
+
+https://github.com/techwithtim/Flask-Web-App-Tutorial
