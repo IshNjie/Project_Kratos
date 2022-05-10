@@ -83,4 +83,4 @@ class reconSys():
 
         #print('Top {} Exercises based on {}'.format(no_exercises, exercise))
         # Return the top most similar exercises by filtering the starting dataframe
-        return df['Exercise'].iloc[movie_indices].to_frame()
+        return df['Exercise'].iloc[movie_indices].to_frame()#.reset_index(drop=True)

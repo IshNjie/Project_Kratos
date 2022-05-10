@@ -32,4 +32,4 @@ def recommendationSystem():
 def exerciseFilter():
     #Retrieve information from recom-sys page. 
     exercise = request.args.get('exercise')
-    return render_template("exerciseFilter.html", data = reconSystem.exerciseRecommend(exercise,5).to_html(), name = exercise)
+    return render_template("exerciseFilter.html", data = reconSystem.exerciseRecommend(exercise,5).to_html(index = False, classes ='table table-hover', justify = 'center'), name = exercise)

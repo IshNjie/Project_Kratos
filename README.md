@@ -27,3 +27,6 @@ A local host will be created, and the website will be accessible via ```http://1
 I followed the below repo to create this project
 
 https://github.com/techwithtim/Flask-Web-App-Tutorial
+
+Help on Table formatting with Bootstrap classes
+https://www.youtube.com/watch?v=Eiz4bwggQDY
