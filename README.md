@@ -2,6 +2,13 @@
 
 "Personification of Strength"
 
+## Accessing The Webpage
+
+Access the webpage via this [link](https://project-kratos.herokuapp.com)
+___
+
+## Overview
+
 The idea of this project is to learn about using Flask, a web framework written in Python.
 
 The concept behind the project was to build a website to inform users about working out in the gym. 
@@ -16,13 +23,10 @@ The user will select what exercise they want to view "similar" exercises for
 
 ![Alt text](/website/static/Web-page-preview/Recom-filter.png?raw=true "Recom-filter")
 
-## Running The App
+___
 
-```
-python main.py
-```
 
-A local host will be created, and the website will be accessible via ```http://127.0.0.1:5000```
+## Resources
 
 I followed the below repo to create this project
 
